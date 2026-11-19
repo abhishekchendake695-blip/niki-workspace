@@ -1,0 +1,2 @@
+plugins { id 'com.android.library' ; id 'kotlin-android' }
+android { namespace 'com.abhynex.terminal.memory' ; compileSdk 34 }

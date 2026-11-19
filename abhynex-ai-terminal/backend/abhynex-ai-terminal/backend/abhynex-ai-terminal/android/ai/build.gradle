@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    namespace 'com.abhynex.terminal.ai'
+    compileSdk 34
+    defaultConfig {
+        minSdk 24
+    }
+}
+
+dependencies {
+    implementation project(':core')
+    implementation project(':network')
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+}
